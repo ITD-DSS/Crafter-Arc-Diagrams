@@ -1,6 +1,8 @@
 # Crafter Software & Site Deployments
 ![Entity Relationships Diagram](./img/entity-relationships.png)
 
+**NOTE** - The below code can be pasted into [Mermaid Live Editor](https://mermaid-js.github.io/mermaid-live-editor/) to be viewed or manipulated.
+
 ```mermaid
 erDiagram
         GITHUB }|--|| CRAFTER-GIT-REPO : HOSTS
