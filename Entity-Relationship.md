@@ -1,6 +1,5 @@
 # Crafter Software & Site Deployments
 ![Entity Relationships Diagram](./img/entity-relationships.png)
-![Entity Relationships Diagram](https://github.com/ITD-Web/Crafter-Arc-Diagrams/blob/master/img/entity-relationships.png)
 
 ```mermaid
 erDiagram
