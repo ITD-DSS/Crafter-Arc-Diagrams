@@ -28,6 +28,7 @@ Each ENV (DEV, STAGE, PROD) MUST have:
 - *STAGE-DELIVERY
 
 ![DEV/STAGE 16 CORES](./img/devstage-vm.png)
+
 **NOTE** - The below code can be pasted into [Mermaid Live Editor](https://mermaid-js.github.io/mermaid-live-editor/) to be viewed or manipulated.
 ```mermaid
 graph TB
