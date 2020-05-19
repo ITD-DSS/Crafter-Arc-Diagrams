@@ -83,3 +83,8 @@ flowchart TB
     prod-e2[(PROD-ENGINE-2 4 CORES)]
     
 ```
+## TOTAL # OF VM's
+### **4**
+
+## TOTAL # of CORES
+### **28**
