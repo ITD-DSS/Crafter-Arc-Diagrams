@@ -27,6 +27,8 @@ Each ENV (DEV, STAGE, PROD) MUST have:
 - *DEV-DELIVERY
 - *STAGE-DELIVERY
 
+![DEV/STAGE 16 CORES](./img/devstage-vm.png)
+**NOTE** - The below code can be pasted into [Mermaid Live Editor](https://mermaid-js.github.io/mermaid-live-editor/) to be viewed or manipulated.
 ```mermaid
 graph TB
     classDef devBg fill:LemonChiffon;
@@ -50,11 +52,14 @@ graph TB
 - Environment that will be public for regular use by department content authoring teams.
 - This will be the environment that supports delivering content directly to production.
 
+![PROD-STUDIO 4-CORES](./img/prodstudio-vm.png)
+
+**NOTE** - The below code can be pasted into [Mermaid Live Editor](https://mermaid-js.github.io/mermaid-live-editor/) to be viewed or manipulated.
 ```mermaid
 flowchart TB
     prod-s[(PROD-STUDIO 4-CORES)]
 ```
-### PROD-ENGINEs 8-CORES
+### PROD-ENGINEs 2 VM's (4 Cores Each) 8-CORES TOTAL
 #### Networking
 - Public-IP - OUT
 - SSH Jenkins - IN
@@ -64,13 +69,16 @@ flowchart TB
 - Used as a GRAPHQL/REST Endpoint Server
 - Serves as a Content Cache
 - Serves Any kind of resource needed for production
- 
+
+![PROD-ENGINES 8-CORES](./img/prodengines-vm.png)
+
+**NOTE** - The below code can be pasted into [Mermaid Live Editor](https://mermaid-js.github.io/mermaid-live-editor/) to be viewed or manipulated.
 ```mermaid
 flowchart TB
     prod-e1[(PROD-ENGINE-1 4 CORES)]
 ```
 ```mermaid
 flowchart TB
-    prod-e2[(PROD-ENGINE-1 4 CORES)]
+    prod-e2[(PROD-ENGINE-2 4 CORES)]
     
 ```
