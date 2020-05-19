@@ -1,6 +1,10 @@
 # CrafterCMS/ITD Architecture Docs
 ## Virtual Machine Layout
 
+## TOTAL # OF VM's = **4**
+
+## TOTAL # of CORES = **28**
+
 ### Requirements for ALL VM's
 Each ENV (DEV, STAGE, PROD) MUST have:
 
@@ -83,8 +87,3 @@ flowchart TB
     prod-e2[(PROD-ENGINE-2 4 CORES)]
     
 ```
-## TOTAL # OF VM's
-### **4**
-
-## TOTAL # of CORES
-### **28**
