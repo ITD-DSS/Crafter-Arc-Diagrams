@@ -1,5 +1,5 @@
 # Crafter Software & Site Deployments
-![Entity Relationships Diagram](./img/entity-relationships.png)
+![Entity Relationships Diagram](./img/entity-relationships.svg)
 
 **NOTE** - The below code can be pasted into [Mermaid Live Editor](https://mermaid-js.github.io/mermaid-live-editor/) to be viewed or manipulated.
 
@@ -15,7 +15,9 @@ erDiagram
         ITD-CRAFTER-REPO-ACTIONS ||--|| JENKINS : "TRIGGERS BUILD/DEPLOY AUTOMATION"
         JENKINS ||--|| DOCKER-IMAGE-REGISTRY : "push built images on BUILD CYCLE ONLY"
         JENKINS ||--|| DEV-STUDIO-VM1 : "Runs AUTOMATION"
+        JENKINS ||--|| DEV-ENGINE-VM1 : "Runs AUTOMATION"
         JENKINS ||--|| STAGE-STUDIO-VM1 : "Runs AUTOMATION"
+        JENKINS ||--|| STAGE-ENGINE-VM1 : "Runs AUTOMATION"
         JENKINS ||--|| PROD-STUDIO-VM2 : "Runs AUTOMATION"
         JENKINS ||--|| NODEJS-SSR-MONGO-PROD : "Runs AUTOMATION"
         JENKINS ||--|| PROD-ENGINE-1-VM3 : "Runs AUTOMATION"
