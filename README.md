@@ -7,3 +7,4 @@
 
 - [Environment Roles](https://github.com/ITD-Web/Crafter-Arc-Diagrams/blob/master/Envs-Roles.md)
 - [Entities & Relationships](https://github.com/ITD-Web/Crafter-Arc-Diagrams/blob/master/Entity-Relationship.md)
+- [Virtual Machine Layout](https://github.com/ITD-Web/Crafter-Arc-Diagrams/blob/master/VM-Map.md)

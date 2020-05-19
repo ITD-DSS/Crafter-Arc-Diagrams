@@ -58,8 +58,13 @@ flowchart TB
 #### Networking
 - Public-IP - OUT
 - SSH Jenkins - IN
+- GIT-SSH - To PROD-STUDIO
 #### Notes:
-
+- These two environments will be used to serve static files to a CDN
+- Used as a GRAPHQL/REST Endpoint Server
+- Serves as a Content Cache
+- Serves Any kind of resource needed for production
+ 
 ```mermaid
 flowchart TB
     prod-e1[(PROD-ENGINE-1 4 CORES)]
